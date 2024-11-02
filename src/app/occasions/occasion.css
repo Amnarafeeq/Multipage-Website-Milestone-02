@@ -1,0 +1,14 @@
+.occasion-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px 0;
+    margin: 3rem 0;
+}
+
+.occasion-text :nth-child(1){
+    border-radius: 20px;
+}
+.occasion-text :nth-child(2){
+    text-align: center;
+}

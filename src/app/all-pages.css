@@ -1,0 +1,51 @@
+.flowers-page-sec {
+  padding: 3rem 4.5rem 3rem 4.5rem;
+}
+.flowers-page-sec h1 {
+  font-size: 3.5rem;
+  font-weight: normal;
+  font-family: monospace;
+}
+.flowers-page-sec p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 1.3rem;
+}
+.flowers-page-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 5rem 0;
+}
+.flowers-page-text {
+  width: 350px;
+  margin: 3rem 0;
+}
+.flowers-page-text :nth-child(1) {
+  border-radius: 2.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.flowers-page-text :nth-child(2) {
+  font-size: 1.8rem;
+  margin: 1rem 1rem;
+}
+.flowers-page-text :nth-child(3) {
+  color: rgb(208, 14, 14);
+  font-weight: 550;
+  margin: 1rem 1rem;
+}
+.flowers-page-text :nth-child(4) {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+.flowers-page-text :nth-child(2):hover,
+.flowers-page-text :nth-child(4):hover {
+  color: gray;
+}
+.flowers-page-text :nth-child(2):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
