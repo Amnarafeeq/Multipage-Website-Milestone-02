@@ -28,8 +28,8 @@
 }
 
 .flowers-page-text :nth-child(2) {
-  font-size: 1.8rem;
-  margin: 1rem 1rem;
+  font-size: 1.6rem;
+  margin: 1.2rem 1rem;
 }
 .flowers-page-text :nth-child(3) {
   color: rgb(208, 14, 14);
@@ -39,7 +39,6 @@
 .flowers-page-text :nth-child(4) {
   font-weight: 400;
   font-size: 1.5rem;
-  margin-left: 1rem;
 }
 .flowers-page-text :nth-child(2):hover,
 .flowers-page-text :nth-child(4):hover {
@@ -48,4 +47,106 @@
 .flowers-page-text :nth-child(2):hover {
   text-decoration: underline;
   cursor: pointer;
+}
+@media (max-width: 479px) {
+  .flowers-page-sec {
+    padding: 3rem 0.8rem;
+  }
+  .flowers-page-sec h1 {
+    font-size: 2rem;
+  }
+  .flowers-page-sec p {
+    font-size: 1rem;
+  }
+  .flowers-page-flex {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .flowers-page-text {
+    width: 140px;
+    max-width: 200px;
+    margin: 3rem 0;
+  }
+  .flowers-page-text :nth-child(1) {
+    height: auto;
+  }
+  .flowers-page-text :nth-child(2),
+  .flowers-page-text :nth-child(4) {
+    font-size: 1.2rem;
+    margin: 0rem 0.3;
+  }
+  .flowers-page-text :nth-child(3) {
+    font-size: 1rem;
+    margin: 0;
+  }
+}
+@media (min-width: 479px) and (max-width: 769px) {
+  .flowers-page-sec {
+    padding: 3rem 1rem;
+  }
+  .flowers-page-sec h1 {
+    font-size: 2.6rem;
+  }
+  .flowers-page-sec p {
+    font-size: 1.2rem;
+  }
+  .flowers-page-flex {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .flowers-page-text {
+    width: 200px;
+    height: 60vh;
+    margin: 3rem 0;
+  }
+  .flowers-page-text :nth-child(1) {
+    height: auto;
+  }
+  .flowers-page-text :nth-child(2),
+  .flowers-page-text :nth-child(4) {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1000px) {
+  .flowers-page-sec {
+    padding: 3rem 1.2rem;
+  }
+  .flowers-page-sec h1 {
+    font-size: 3rem;
+  }
+  .flowers-page-sec p {
+    font-size: 1.5rem;
+  }
+  .flowers-page-flex {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .flowers-page-text {
+    width: 200px;
+    margin: 2rem 0;
+  }
+  .flowers-page-text :nth-child(1) {
+    height: auto;
+    width: 100%;
+  }
+  .flowers-page-text :nth-child(2),
+  .flowers-page-text :nth-child(3),
+  .flowers-page-text :nth-child(4) {
+    font-size: 1.4rem;
+    margin: 1rem 0.3rem;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1500px) {
+  body {
+    max-width: 1536px;
+    margin: 0 auto;
+  }
 }

@@ -1,14 +1,26 @@
-.occasion-flex{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 50px 0;
-    margin: 3rem 0;
+.occasion-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px 0;
+  margin: 3rem 0;
 }
 
-.occasion-text :nth-child(1){
-    border-radius: 20px;
+.occasion-text :nth-child(1) {
+  border-radius: 20px;
 }
-.occasion-text :nth-child(2){
-    text-align: center;
+.occasion-text :nth-child(2) {
+  text-align: center;
+}
+@media (max-width: 550px) {
+  .occasion-flex {
+    gap: 10px 0;
+  }
+  .occasion-text {
+    width: 130px;
+  }
+  .occasion-text :nth-child(1) {
+    width: 100%;
+    height: auto;
+  }
 }

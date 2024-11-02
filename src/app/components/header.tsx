@@ -14,37 +14,37 @@ const Header = () => {
         <nav>
           <ul className="nav">
             <li>
-              <Link href="/fall-flowers" className="links">
+              <Link href="/fall-flowers" className="nav-link">
                 Fall
               </Link>
             </li>
             <li>
-              <Link href="/most-popular" className="links">
+              <Link href="/most-popular" className="nav-link">
                 Most Popular
               </Link>
             </li>
             <li>
-              <Link href="/birthday" className="links">
+              <Link href="/birthday" className="nav-link">
                 Birthday
               </Link>
             </li>
             <li>
-              <Link href="/sympathy" className="links">
+              <Link href="/sympathy" className="nav-link">
                 Sympathy
               </Link>
             </li>
             <li>
-              <Link href="/occasions" className="links">
+              <Link href="/occasions" className="nav-link">
                 Occasions
               </Link>
             </li>
             <li>
-              <Link href="/plants" className="links">
+              <Link href="/plants" className="nav-link">
                 Plants
               </Link>
             </li>
             <li>
-              <Link href="/gifts" className="links">
+              <Link href="/gifts" className="nav-link">
                 Gifts
               </Link>
             </li>
