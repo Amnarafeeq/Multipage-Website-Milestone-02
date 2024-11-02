@@ -1,9 +1,21 @@
 import React from 'react'
 import "../all-pages.css"
+// import "../home-page.css"
 import Image from 'next/image'
+import Link from 'next/link'
 const FallFlowers = () => {
   return (
   <section className='flowers-page-sec'>
+    <nav>
+      <ul>
+      <li>
+              <Link href="/" className="link">
+                Home
+              </Link><span className='span'> /fall</span>
+            </li>
+            
+      </ul>
+    </nav>
     <h1>Fall Assortment</h1>
     <p>Here at Proflowers, we have a great assortment of fall flowers, gifts, and plants that are perfect for every autumnal occasion. Take a look through our selection of colorful bouquets, Thanksgiving gifts, and spooky Halloween treats for delivery today!</p>
  <div className='flowers-page-flex'>

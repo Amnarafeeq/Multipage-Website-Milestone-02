@@ -1,9 +1,20 @@
 import React from 'react'
 import Image from 'next/image'
 import "../all-pages.css"
+import Link from 'next/link'
 const Plants = () => {
   return (
     <section className='flowers-page-sec'>
+        <nav>
+      <ul>
+      <li>
+              <Link href="/" className="link">
+                Home
+              </Link><span className='span'> /plants</span>
+            </li>
+            
+      </ul>
+    </nav>
     <h1>All Plant Gifts</h1>
     <p>House plants make an excellent gift, whether for a special occasion or for no reason at all. They’re long lasting and easy to care for, and with our wide assortment, you’re sure to find one perfect for anyone on your list.</p>
     <div className='flowers-page-flex'>

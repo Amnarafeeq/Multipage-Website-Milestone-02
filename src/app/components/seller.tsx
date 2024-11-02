@@ -57,9 +57,7 @@ const Seller = () => {
         </div>
       </div>
       <div className="seller-btn">
-        <Link href="/bestseller">
           <button className="btn">shopbestsellers</button>
-        </Link>
       </div>
     </section>
   );

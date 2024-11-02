@@ -1,9 +1,20 @@
 import React from 'react'
 import "../all-pages.css"
 import Image from 'next/image'
+import Link from 'next/link'
 const Sympathy = () => {
   return (
     <section className='flowers-page-sec'>
+        <nav>
+      <ul>
+      <li>
+              <Link href="/" className="link">
+                Home
+              </Link><span className='span'> /sympathy</span>
+            </li>
+            
+      </ul>
+    </nav>
     <h1>Sympathy Flowers & Flower Arrangements</h1>
     <p>Sending bereavement and sympathy flowers to someone who has suffered a loss is a kind gesture. It will remind them that you are there for them in their time of need. When choosing a bouquet to express your condolences, you want the peace of mind that you are receiving high-quality blooms that will be a beautiful sentiment instead of a burden. Proflowers is dedicated to excellence and has a variety of sympathy flowers for delivery for all budgets, and can be easily ordered online. Proflowers has a variety of beautifully arranged sympathy flowers for delivery so that you don’t have to stress about your decision. Whichever you choose, you can rest assured that your condolences will be greatly appreciated.</p>
     <div className='flowers-page-flex'>

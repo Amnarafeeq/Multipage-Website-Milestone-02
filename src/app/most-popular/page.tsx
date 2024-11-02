@@ -1,9 +1,20 @@
 import React from 'react'
 import "../all-pages.css"
 import Image from 'next/image'
+import Link from 'next/link'
 const MostPopularFlowers = () => {
   return (
    <section className='flowers-page-sec'>
+      <nav>
+      <ul>
+      <li>
+              <Link href="/" className="link">
+                Home
+              </Link><span className='span'> /most-popular</span>
+            </li>
+            
+      </ul>
+    </nav>
     <h1>Proflowers Best Sellers</h1>
     <p>If there’s a special occasion that needs celebrating, then Proflowers has a gift to suit the occasion. Whether you want to celebrate an anniversary, birthday, new baby, new job, or holiday, our online collection of gourmet food baskets, chocolate covered sweets and strawberries, specialty flower bouquets and plants offers a variety of special ways to show how much you care.</p>
     <div className='flowers-page-flex'>

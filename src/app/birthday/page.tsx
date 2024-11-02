@@ -1,9 +1,20 @@
 import React from 'react'
 import "../all-pages.css"
 import Image from 'next/image'
+import Link from 'next/link'
 const BirthdayPage = () => {
   return (
     <section className='flowers-page-sec'>
+        <nav>
+      <ul>
+      <li>
+              <Link href="/" className="link">
+                Home
+              </Link><span className='span'> /birthday</span>
+            </li>
+            
+      </ul>
+    </nav>
     <h1>Happy Birthday Flowers</h1>
     <p>Nothing brightens a day more than a surprise birthday flowers delivery. Celebrate another turn around the sun with vibrant bouquets filled with gorgeous blooms from Proflowers. Order next day or same day flower delivery and make a loved one smile on their special day.</p>
     <div className='flowers-page-flex'>

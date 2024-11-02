@@ -2,9 +2,20 @@ import React from 'react'
 import "../all-pages.css"
 import "./occasion.css"
 import Image from 'next/image'
+import Link from 'next/link'
 const Occasion = () => {
   return (
     <section  className='flowers-page-sec'>
+        <nav>
+      <ul>
+      <li>
+              <Link href="/" className="link">
+                Home
+              </Link><span className='span'> /occasions</span>
+            </li>
+            
+      </ul>
+    </nav>
         <h1>Shop By Occasion</h1>
         <p>From new baby gifts to flowers for your anniversary, we here at Proflowers have a selection for each and every great gift-giving occasion. Just choose from the occasions listed below and find amazing options that your recipient is sure to love. Whether you want to send flowers today or schedule a gift delivery for a special day coming up, we have the right options here at Proflowers. Just put in your recipient’s ZIP code, choose the delivery date, and pick the gift you know they’ll appreciate the most!</p>
       <div className='occasion-flex'>

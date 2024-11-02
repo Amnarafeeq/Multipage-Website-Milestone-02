@@ -209,8 +209,7 @@ del {
 }
 .fall-img-cont .fall-pinky-img,
 .pinky-img-cont .fall-pinky-img {
-  height: 65vh;
-  width: auto;
+  height: auto;
 }
 
 .fall-text,
@@ -449,8 +448,8 @@ footer h1 {
     flex-direction: column;
     margin: 3rem 0;
   }
-  .fall-img-cont img,
-  .pinky-img-cont img {
+  .fall-img-cont .fall-pinky-img,
+  .pinky-img-cont .fall-pinky-img {
     width: 100%;
   }
   .details-sec {

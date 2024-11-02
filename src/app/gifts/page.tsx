@@ -1,9 +1,20 @@
 import React from 'react'
 import Image from 'next/image'
 import "../all-pages.css"
+import Link from 'next/link'
 const Gifts = () => {
   return (
     <section className='flowers-page-sec'>
+        <nav>
+      <ul>
+      <li>
+              <Link href="/" className="link">
+                Home
+              </Link><span className='span'> /gifts</span>
+            </li>
+            
+      </ul>
+    </nav>
     <h1>Gifts for Every Occasion</h1>
     <p>Gifts make every occasion more special. They offer a thoughtful sentiment and remind loved ones how much you appreciate them. With everything from birthday gifts, gourmet treats, and more, send a gift from Proflowers to make their day.</p>
     <div className='flowers-page-flex'>
